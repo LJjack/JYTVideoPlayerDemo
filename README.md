@@ -83,4 +83,7 @@
 天天象上团队荣誉出品
 http://www.daydays.com
 
+联系邮箱：bihongbo@jiyoutang.com
+          jiazhaoyang@jiyoutang.com
+
 ###欢迎大家issue我们！！
