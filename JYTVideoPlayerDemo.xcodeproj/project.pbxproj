@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7478F1F1BD625CB006B8A88 /* JYTVideoLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7478F1E1BD625CB006B8A88 /* JYTVideoLoadingView.m */; settings = {ASSET_TAGS = (); }; };
+		F7DB51D01BCE078B00FCACD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DB51CF1BCE078B00FCACD5 /* main.m */; };
+		F7DB51D31BCE078B00FCACD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DB51D21BCE078B00FCACD5 /* AppDelegate.m */; };
+		F7DB51DB1BCE078C00FCACD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7DB51DA1BCE078C00FCACD5 /* Assets.xcassets */; };
+		F7DB51DE1BCE078C00FCACD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7DB51DC1BCE078C00FCACD5 /* LaunchScreen.storyboard */; };
+		F7DB51E91BCE078C00FCACD5 /* JYTVideoPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DB51E81BCE078C00FCACD5 /* JYTVideoPlayerDemoTests.m */; };
+		F7DB51F41BCE078C00FCACD5 /* JYTVideoPlayerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DB51F31BCE078C00FCACD5 /* JYTVideoPlayerDemoUITests.m */; };
+		F7DB522A1BCE20F100FCACD5 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB52291BCE20F100FCACD5 /* OpenAL.framework */; };
+		F7DB522C1BCE20F800FCACD5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB522B1BCE20F800FCACD5 /* CoreGraphics.framework */; };
+		F7DB522E1BCE210400FCACD5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB522D1BCE210400FCACD5 /* OpenGLES.framework */; };
+		F7DB52301BCE210B00FCACD5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB522F1BCE210B00FCACD5 /* UIKit.framework */; };
+		F7DB52321BCE211300FCACD5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB52311BCE211300FCACD5 /* QuartzCore.framework */; };
+		F7DB52341BCE211F00FCACD5 /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB52331BCE211F00FCACD5 /* libbz2.1.0.tbd */; };
+		F7DB52361BCE212900FCACD5 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB52351BCE212900FCACD5 /* libz.tbd */; };
+		F7DB52381BCE213100FCACD5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB52371BCE213100FCACD5 /* AudioToolbox.framework */; };
+		F7DB523A1BCE213F00FCACD5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB52391BCE213F00FCACD5 /* Security.framework */; };
+		F7DB523C1BCE214700FCACD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB523B1BCE214600FCACD5 /* Foundation.framework */; };
+		F7DB523E1BCE215C00FCACD5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB523D1BCE215C00FCACD5 /* MobileCoreServices.framework */; };
+		F7DB52401BCE216600FCACD5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB523F1BCE216600FCACD5 /* CFNetwork.framework */; };
+		F7DB52421BCE217000FCACD5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7DB52411BCE217000FCACD5 /* SystemConfiguration.framework */; };
+		F7DB52591BCE40AF00FCACD5 /* JYTVideoSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DB52581BCE40AF00FCACD5 /* JYTVideoSlider.m */; settings = {ASSET_TAGS = (); }; };
+		F7DB525D1BCE433400FCACD5 /* JYTVideoBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DB525C1BCE433400FCACD5 /* JYTVideoBottomBar.m */; settings = {ASSET_TAGS = (); }; };
+		F7DB52601BCE5F5400FCACD5 /* JYTVideoTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DB525F1BCE5F5400FCACD5 /* JYTVideoTopBar.m */; settings = {ASSET_TAGS = (); }; };
+		F7F3765A1BDDF77400E6CF94 /* JYTVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F376591BDDF77400E6CF94 /* JYTVideoController.m */; settings = {ASSET_TAGS = (); }; };
+		F7F3765D1BDDF7D200E6CF94 /* TTXSVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7F3765C1BDDF7D200E6CF94 /* TTXSVideoController.m */; settings = {ASSET_TAGS = (); }; };
+		F7F9F00A1BDDFDA300D7AFD2 /* DroidSansFallback.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7F9F0021BDDFDA300D7AFD2 /* DroidSansFallback.ttf */; settings = {ASSET_TAGS = (); }; };
+		F7F9F00B1BDDFDA300D7AFD2 /* libASIHTTP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F9F0031BDDFDA300D7AFD2 /* libASIHTTP.a */; settings = {ASSET_TAGS = (); }; };
+		F7F9F00C1BDDFDA300D7AFD2 /* libBase64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F9F0041BDDFDA300D7AFD2 /* libBase64.a */; settings = {ASSET_TAGS = (); }; };
+		F7F9F00D1BDDFDA300D7AFD2 /* libCyberPlayerController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F9F0051BDDFDA300D7AFD2 /* libCyberPlayerController.a */; settings = {ASSET_TAGS = (); }; };
+		F7F9F00E1BDDFDA300D7AFD2 /* libCyberPlayerUtils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F9F0061BDDFDA300D7AFD2 /* libCyberPlayerUtils.a */; settings = {ASSET_TAGS = (); }; };
+		F7F9F00F1BDDFDA300D7AFD2 /* libGzipCompressor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F9F0071BDDFDA300D7AFD2 /* libGzipCompressor.a */; settings = {ASSET_TAGS = (); }; };
+		F7F9F0101BDDFDA300D7AFD2 /* libReachability.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F9F0081BDDFDA300D7AFD2 /* libReachability.a */; settings = {ASSET_TAGS = (); }; };
+		F7F9F0111BDDFDA300D7AFD2 /* libSBJSON.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F9F0091BDDFDA300D7AFD2 /* libSBJSON.a */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7DB51E51BCE078C00FCACD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7DB51C31BCE078B00FCACD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7DB51CA1BCE078B00FCACD5;
+			remoteInfo = JYTVideoPlayerDemo;
+		};
+		F7DB51F01BCE078C00FCACD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7DB51C31BCE078B00FCACD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7DB51CA1BCE078B00FCACD5;
+			remoteInfo = JYTVideoPlayerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7478F1D1BD625CB006B8A88 /* JYTVideoLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTVideoLoadingView.h; sourceTree = "<group>"; };
+		F7478F1E1BD625CB006B8A88 /* JYTVideoLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTVideoLoadingView.m; sourceTree = "<group>"; };
+		F7DB51CB1BCE078B00FCACD5 /* JYTVideoPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYTVideoPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DB51CF1BCE078B00FCACD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7DB51D11BCE078B00FCACD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7DB51D21BCE078B00FCACD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7DB51DA1BCE078C00FCACD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7DB51DD1BCE078C00FCACD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7DB51DF1BCE078C00FCACD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7DB51E41BCE078C00FCACD5 /* JYTVideoPlayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYTVideoPlayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DB51E81BCE078C00FCACD5 /* JYTVideoPlayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTVideoPlayerDemoTests.m; sourceTree = "<group>"; };
+		F7DB51EA1BCE078C00FCACD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7DB51EF1BCE078C00FCACD5 /* JYTVideoPlayerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYTVideoPlayerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7DB51F31BCE078C00FCACD5 /* JYTVideoPlayerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYTVideoPlayerDemoUITests.m; sourceTree = "<group>"; };
+		F7DB51F51BCE078C00FCACD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7DB52291BCE20F100FCACD5 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		F7DB522B1BCE20F800FCACD5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7DB522D1BCE210400FCACD5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		F7DB522F1BCE210B00FCACD5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7DB52311BCE211300FCACD5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F7DB52331BCE211F00FCACD5 /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
+		F7DB52351BCE212900FCACD5 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		F7DB52371BCE213100FCACD5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F7DB52391BCE213F00FCACD5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F7DB523B1BCE214600FCACD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7DB523D1BCE215C00FCACD5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F7DB523F1BCE216600FCACD5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F7DB52411BCE217000FCACD5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F7DB52571BCE40AF00FCACD5 /* JYTVideoSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTVideoSlider.h; sourceTree = "<group>"; };
+		F7DB52581BCE40AF00FCACD5 /* JYTVideoSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTVideoSlider.m; sourceTree = "<group>"; };
+		F7DB525B1BCE433400FCACD5 /* JYTVideoBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTVideoBottomBar.h; sourceTree = "<group>"; };
+		F7DB525C1BCE433400FCACD5 /* JYTVideoBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTVideoBottomBar.m; sourceTree = "<group>"; };
+		F7DB525E1BCE5F5400FCACD5 /* JYTVideoTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTVideoTopBar.h; sourceTree = "<group>"; };
+		F7DB525F1BCE5F5400FCACD5 /* JYTVideoTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTVideoTopBar.m; sourceTree = "<group>"; };
+		F7F376581BDDF77400E6CF94 /* JYTVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYTVideoController.h; sourceTree = "<group>"; };
+		F7F376591BDDF77400E6CF94 /* JYTVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYTVideoController.m; sourceTree = "<group>"; };
+		F7F3765B1BDDF7D200E6CF94 /* TTXSVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTXSVideoController.h; sourceTree = "<group>"; };
+		F7F3765C1BDDF7D200E6CF94 /* TTXSVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTXSVideoController.m; sourceTree = "<group>"; };
+		F7F9F0011BDDFDA300D7AFD2 /* CyberPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyberPlayerController.h; sourceTree = "<group>"; };
+		F7F9F0021BDDFDA300D7AFD2 /* DroidSansFallback.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidSansFallback.ttf; sourceTree = "<group>"; };
+		F7F9F0031BDDFDA300D7AFD2 /* libASIHTTP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libASIHTTP.a; sourceTree = "<group>"; };
+		F7F9F0041BDDFDA300D7AFD2 /* libBase64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBase64.a; sourceTree = "<group>"; };
+		F7F9F0051BDDFDA300D7AFD2 /* libCyberPlayerController.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCyberPlayerController.a; sourceTree = "<group>"; };
+		F7F9F0061BDDFDA300D7AFD2 /* libCyberPlayerUtils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCyberPlayerUtils.a; sourceTree = "<group>"; };
+		F7F9F0071BDDFDA300D7AFD2 /* libGzipCompressor.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGzipCompressor.a; sourceTree = "<group>"; };
+		F7F9F0081BDDFDA300D7AFD2 /* libReachability.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libReachability.a; sourceTree = "<group>"; };
+		F7F9F0091BDDFDA300D7AFD2 /* libSBJSON.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSBJSON.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7DB51C81BCE078B00FCACD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DB52421BCE217000FCACD5 /* SystemConfiguration.framework in Frameworks */,
+				F7DB52401BCE216600FCACD5 /* CFNetwork.framework in Frameworks */,
+				F7DB523E1BCE215C00FCACD5 /* MobileCoreServices.framework in Frameworks */,
+				F7DB523C1BCE214700FCACD5 /* Foundation.framework in Frameworks */,
+				F7F9F00C1BDDFDA300D7AFD2 /* libBase64.a in Frameworks */,
+				F7DB523A1BCE213F00FCACD5 /* Security.framework in Frameworks */,
+				F7F9F00D1BDDFDA300D7AFD2 /* libCyberPlayerController.a in Frameworks */,
+				F7F9F0101BDDFDA300D7AFD2 /* libReachability.a in Frameworks */,
+				F7F9F0111BDDFDA300D7AFD2 /* libSBJSON.a in Frameworks */,
+				F7DB52381BCE213100FCACD5 /* AudioToolbox.framework in Frameworks */,
+				F7DB52361BCE212900FCACD5 /* libz.tbd in Frameworks */,
+				F7F9F00B1BDDFDA300D7AFD2 /* libASIHTTP.a in Frameworks */,
+				F7DB52341BCE211F00FCACD5 /* libbz2.1.0.tbd in Frameworks */,
+				F7DB52321BCE211300FCACD5 /* QuartzCore.framework in Frameworks */,
+				F7F9F00F1BDDFDA300D7AFD2 /* libGzipCompressor.a in Frameworks */,
+				F7DB52301BCE210B00FCACD5 /* UIKit.framework in Frameworks */,
+				F7F9F00E1BDDFDA300D7AFD2 /* libCyberPlayerUtils.a in Frameworks */,
+				F7DB522E1BCE210400FCACD5 /* OpenGLES.framework in Frameworks */,
+				F7DB522C1BCE20F800FCACD5 /* CoreGraphics.framework in Frameworks */,
+				F7DB522A1BCE20F100FCACD5 /* OpenAL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DB51E11BCE078C00FCACD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DB51EC1BCE078C00FCACD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7DB51C21BCE078B00FCACD5 = {
+			isa = PBXGroup;
+			children = (
+				F7DB52411BCE217000FCACD5 /* SystemConfiguration.framework */,
+				F7DB523F1BCE216600FCACD5 /* CFNetwork.framework */,
+				F7DB523D1BCE215C00FCACD5 /* MobileCoreServices.framework */,
+				F7DB523B1BCE214600FCACD5 /* Foundation.framework */,
+				F7DB52391BCE213F00FCACD5 /* Security.framework */,
+				F7DB52371BCE213100FCACD5 /* AudioToolbox.framework */,
+				F7DB52351BCE212900FCACD5 /* libz.tbd */,
+				F7DB52331BCE211F00FCACD5 /* libbz2.1.0.tbd */,
+				F7DB52311BCE211300FCACD5 /* QuartzCore.framework */,
+				F7DB522F1BCE210B00FCACD5 /* UIKit.framework */,
+				F7DB522D1BCE210400FCACD5 /* OpenGLES.framework */,
+				F7DB522B1BCE20F800FCACD5 /* CoreGraphics.framework */,
+				F7DB52291BCE20F100FCACD5 /* OpenAL.framework */,
+				F7DB51CD1BCE078B00FCACD5 /* JYTVideoPlayerDemo */,
+				F7DB51E71BCE078C00FCACD5 /* JYTVideoPlayerDemoTests */,
+				F7DB51F21BCE078C00FCACD5 /* JYTVideoPlayerDemoUITests */,
+				F7DB51CC1BCE078B00FCACD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7DB51CC1BCE078B00FCACD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7DB51CB1BCE078B00FCACD5 /* JYTVideoPlayerDemo.app */,
+				F7DB51E41BCE078C00FCACD5 /* JYTVideoPlayerDemoTests.xctest */,
+				F7DB51EF1BCE078C00FCACD5 /* JYTVideoPlayerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7DB51CD1BCE078B00FCACD5 /* JYTVideoPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F7DB52561BCE405F00FCACD5 /* JYTVideoPlayer */,
+				F7DB51D11BCE078B00FCACD5 /* AppDelegate.h */,
+				F7DB51D21BCE078B00FCACD5 /* AppDelegate.m */,
+				F7F3765B1BDDF7D200E6CF94 /* TTXSVideoController.h */,
+				F7F3765C1BDDF7D200E6CF94 /* TTXSVideoController.m */,
+				F7DB51DA1BCE078C00FCACD5 /* Assets.xcassets */,
+				F7DB51DC1BCE078C00FCACD5 /* LaunchScreen.storyboard */,
+				F7DB51DF1BCE078C00FCACD5 /* Info.plist */,
+				F7DB51CE1BCE078B00FCACD5 /* Supporting Files */,
+			);
+			path = JYTVideoPlayerDemo;
+			sourceTree = "<group>";
+		};
+		F7DB51CE1BCE078B00FCACD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7DB51CF1BCE078B00FCACD5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7DB51E71BCE078C00FCACD5 /* JYTVideoPlayerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7DB51E81BCE078C00FCACD5 /* JYTVideoPlayerDemoTests.m */,
+				F7DB51EA1BCE078C00FCACD5 /* Info.plist */,
+			);
+			path = JYTVideoPlayerDemoTests;
+			sourceTree = "<group>";
+		};
+		F7DB51F21BCE078C00FCACD5 /* JYTVideoPlayerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7DB51F31BCE078C00FCACD5 /* JYTVideoPlayerDemoUITests.m */,
+				F7DB51F51BCE078C00FCACD5 /* Info.plist */,
+			);
+			path = JYTVideoPlayerDemoUITests;
+			sourceTree = "<group>";
+		};
+		F7DB52561BCE405F00FCACD5 /* JYTVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F7F9F0001BDDFDA300D7AFD2 /* Resource */,
+				F7F376581BDDF77400E6CF94 /* JYTVideoController.h */,
+				F7F376591BDDF77400E6CF94 /* JYTVideoController.m */,
+				F7DB52571BCE40AF00FCACD5 /* JYTVideoSlider.h */,
+				F7DB52581BCE40AF00FCACD5 /* JYTVideoSlider.m */,
+				F7DB525B1BCE433400FCACD5 /* JYTVideoBottomBar.h */,
+				F7DB525C1BCE433400FCACD5 /* JYTVideoBottomBar.m */,
+				F7DB525E1BCE5F5400FCACD5 /* JYTVideoTopBar.h */,
+				F7DB525F1BCE5F5400FCACD5 /* JYTVideoTopBar.m */,
+				F7478F1D1BD625CB006B8A88 /* JYTVideoLoadingView.h */,
+				F7478F1E1BD625CB006B8A88 /* JYTVideoLoadingView.m */,
+			);
+			path = JYTVideoPlayer;
+			sourceTree = "<group>";
+		};
+		F7F9F0001BDDFDA300D7AFD2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F7F9F0011BDDFDA300D7AFD2 /* CyberPlayerController.h */,
+				F7F9F0021BDDFDA300D7AFD2 /* DroidSansFallback.ttf */,
+				F7F9F0031BDDFDA300D7AFD2 /* libASIHTTP.a */,
+				F7F9F0041BDDFDA300D7AFD2 /* libBase64.a */,
+				F7F9F0051BDDFDA300D7AFD2 /* libCyberPlayerController.a */,
+				F7F9F0061BDDFDA300D7AFD2 /* libCyberPlayerUtils.a */,
+				F7F9F0071BDDFDA300D7AFD2 /* libGzipCompressor.a */,
+				F7F9F0081BDDFDA300D7AFD2 /* libReachability.a */,
+				F7F9F0091BDDFDA300D7AFD2 /* libSBJSON.a */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7DB51CA1BCE078B00FCACD5 /* JYTVideoPlayerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7DB51F81BCE078C00FCACD5 /* Build configuration list for PBXNativeTarget "JYTVideoPlayerDemo" */;
+			buildPhases = (
+				F7DB51C71BCE078B00FCACD5 /* Sources */,
+				F7DB51C81BCE078B00FCACD5 /* Frameworks */,
+				F7DB51C91BCE078B00FCACD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYTVideoPlayerDemo;
+			productName = JYTVideoPlayerDemo;
+			productReference = F7DB51CB1BCE078B00FCACD5 /* JYTVideoPlayerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7DB51E31BCE078C00FCACD5 /* JYTVideoPlayerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7DB51FB1BCE078C00FCACD5 /* Build configuration list for PBXNativeTarget "JYTVideoPlayerDemoTests" */;
+			buildPhases = (
+				F7DB51E01BCE078C00FCACD5 /* Sources */,
+				F7DB51E11BCE078C00FCACD5 /* Frameworks */,
+				F7DB51E21BCE078C00FCACD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7DB51E61BCE078C00FCACD5 /* PBXTargetDependency */,
+			);
+			name = JYTVideoPlayerDemoTests;
+			productName = JYTVideoPlayerDemoTests;
+			productReference = F7DB51E41BCE078C00FCACD5 /* JYTVideoPlayerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7DB51EE1BCE078C00FCACD5 /* JYTVideoPlayerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7DB51FE1BCE078C00FCACD5 /* Build configuration list for PBXNativeTarget "JYTVideoPlayerDemoUITests" */;
+			buildPhases = (
+				F7DB51EB1BCE078C00FCACD5 /* Sources */,
+				F7DB51EC1BCE078C00FCACD5 /* Frameworks */,
+				F7DB51ED1BCE078C00FCACD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7DB51F11BCE078C00FCACD5 /* PBXTargetDependency */,
+			);
+			name = JYTVideoPlayerDemoUITests;
+			productName = JYTVideoPlayerDemoUITests;
+			productReference = F7DB51EF1BCE078C00FCACD5 /* JYTVideoPlayerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7DB51C31BCE078B00FCACD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = bihongbo;
+				TargetAttributes = {
+					F7DB51CA1BCE078B00FCACD5 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					F7DB51E31BCE078C00FCACD5 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F7DB51CA1BCE078B00FCACD5;
+					};
+					F7DB51EE1BCE078C00FCACD5 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F7DB51CA1BCE078B00FCACD5;
+					};
+				};
+			};
+			buildConfigurationList = F7DB51C61BCE078B00FCACD5 /* Build configuration list for PBXProject "JYTVideoPlayerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7DB51C21BCE078B00FCACD5;
+			productRefGroup = F7DB51CC1BCE078B00FCACD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7DB51CA1BCE078B00FCACD5 /* JYTVideoPlayerDemo */,
+				F7DB51E31BCE078C00FCACD5 /* JYTVideoPlayerDemoTests */,
+				F7DB51EE1BCE078C00FCACD5 /* JYTVideoPlayerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7DB51C91BCE078B00FCACD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DB51DE1BCE078C00FCACD5 /* LaunchScreen.storyboard in Resources */,
+				F7F9F00A1BDDFDA300D7AFD2 /* DroidSansFallback.ttf in Resources */,
+				F7DB51DB1BCE078C00FCACD5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DB51E21BCE078C00FCACD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DB51ED1BCE078C00FCACD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7DB51C71BCE078B00FCACD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DB52591BCE40AF00FCACD5 /* JYTVideoSlider.m in Sources */,
+				F7DB525D1BCE433400FCACD5 /* JYTVideoBottomBar.m in Sources */,
+				F7478F1F1BD625CB006B8A88 /* JYTVideoLoadingView.m in Sources */,
+				F7F3765A1BDDF77400E6CF94 /* JYTVideoController.m in Sources */,
+				F7DB52601BCE5F5400FCACD5 /* JYTVideoTopBar.m in Sources */,
+				F7DB51D31BCE078B00FCACD5 /* AppDelegate.m in Sources */,
+				F7F3765D1BDDF7D200E6CF94 /* TTXSVideoController.m in Sources */,
+				F7DB51D01BCE078B00FCACD5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DB51E01BCE078C00FCACD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DB51E91BCE078C00FCACD5 /* JYTVideoPlayerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7DB51EB1BCE078C00FCACD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DB51F41BCE078C00FCACD5 /* JYTVideoPlayerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7DB51E61BCE078C00FCACD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7DB51CA1BCE078B00FCACD5 /* JYTVideoPlayerDemo */;
+			targetProxy = F7DB51E51BCE078C00FCACD5 /* PBXContainerItemProxy */;
+		};
+		F7DB51F11BCE078C00FCACD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7DB51CA1BCE078B00FCACD5 /* JYTVideoPlayerDemo */;
+			targetProxy = F7DB51F01BCE078C00FCACD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7DB51DC1BCE078C00FCACD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7DB51DD1BCE078C00FCACD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7DB51F61BCE078C00FCACD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7DB51F71BCE078C00FCACD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7DB51F91BCE078C00FCACD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = JYTVideoPlayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JYTVideoPlayerDemo/Resource",
+					"$(PROJECT_DIR)/JYTVideoPlayerDemo/JYTVideoPlayer/Resource",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.JYTVideoPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7DB51FA1BCE078C00FCACD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = JYTVideoPlayerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JYTVideoPlayerDemo/Resource",
+					"$(PROJECT_DIR)/JYTVideoPlayerDemo/JYTVideoPlayer/Resource",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.JYTVideoPlayerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7DB51FC1BCE078C00FCACD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYTVideoPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.JYTVideoPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYTVideoPlayerDemo.app/JYTVideoPlayerDemo";
+			};
+			name = Debug;
+		};
+		F7DB51FD1BCE078C00FCACD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYTVideoPlayerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.JYTVideoPlayerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYTVideoPlayerDemo.app/JYTVideoPlayerDemo";
+			};
+			name = Release;
+		};
+		F7DB51FF1BCE078C00FCACD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYTVideoPlayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.JYTVideoPlayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYTVideoPlayerDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F7DB52001BCE078C00FCACD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYTVideoPlayerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bhb.JYTVideoPlayerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYTVideoPlayerDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7DB51C61BCE078B00FCACD5 /* Build configuration list for PBXProject "JYTVideoPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DB51F61BCE078C00FCACD5 /* Debug */,
+				F7DB51F71BCE078C00FCACD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7DB51F81BCE078C00FCACD5 /* Build configuration list for PBXNativeTarget "JYTVideoPlayerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DB51F91BCE078C00FCACD5 /* Debug */,
+				F7DB51FA1BCE078C00FCACD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7DB51FB1BCE078C00FCACD5 /* Build configuration list for PBXNativeTarget "JYTVideoPlayerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DB51FC1BCE078C00FCACD5 /* Debug */,
+				F7DB51FD1BCE078C00FCACD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7DB51FE1BCE078C00FCACD5 /* Build configuration list for PBXNativeTarget "JYTVideoPlayerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7DB51FF1BCE078C00FCACD5 /* Debug */,
+				F7DB52001BCE078C00FCACD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7DB51C31BCE078B00FCACD5 /* Project object */;
+}
