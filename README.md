@@ -86,4 +86,4 @@ http://www.daydays.com
 联系邮箱：bihongbo@jiyoutang.com
           jiazhaoyang@jiyoutang.com
 
-###欢迎大家issue我们！！
+###欢迎大家[issue](https://github.com/DayDayTeam/JYTVideoPlayerDemo/issues "天天象上") 我们！！
