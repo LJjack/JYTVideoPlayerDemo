@@ -327,6 +327,12 @@ typedef NSInteger CBPErrorCode;
 - (void)setCustomHttpHeader:(NSString*)httpHeadBuffer;
 
 /**
+ @abstract 设置log打印级别。
+ @param value 自定义的log打印级别。0~5,default is 0, 0:NO_LOG 1:ERROR 2:WARNNING 3:INFO 4:DEBUG 5:VERBOSE
+ */
+- (void)setLogLevel:(int)value;
+
+/**
  @abstract 增加传入自定义 userAgent 接口。
  @param userAgent 自定义的userAgent。
  */
@@ -355,6 +361,15 @@ typedef NSInteger CBPErrorCode;
  @      -5:切换字幕时,url 或本地播放文件跟已经播放的字幕相同,无法切换。
  */
 - (int)openExtSubtitleFile:(NSString*)subFilePath;
+
+/**
+ @abstract 得到的视频文件实际的URL地址.
+ @discussion 当播放器正在播放视频时，调用此方法。
+ @since Available in CyberPlayerController 1.3.5 and later.
+ @warning 在播放器的状态不是CBPMoviePlaybackStatePlaying,CBPMoviePlaybackStatePaused时，将不会返回正确的url。
+ @see
+ */
+- (NSString *) getCurrentPlayingUrl;
 
 /**
  @abstract 视频文件的URL地址，该地址可以是本地地址或者服务器地址。使用contenString也能设置视频播放地址.
